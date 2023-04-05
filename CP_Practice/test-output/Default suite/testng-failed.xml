@@ -3,33 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AutomationPractice.AutomationPractice">
+      <class name="AutomationPractice.loginUI">
         <methods>
-          <include name="loginUI"/>
-          <include name="goLiveNow"/>
-          <include name="searchBatchWithAlphabets"/>
-          <include name="verifybatchCount"/>
-          <include name="sortUsingRecentlyCreated"/>
-          <include name="previousBatchStartDate"/>
-          <include name="searchBatchWithSpecialCharacters"/>
-          <include name="zeroBatchesFound"/>
-          <include name="addStudentManually"/>
-          <include name="searchBatchWithDigits"/>
-          <include name="ErrorMsgForInvalidOTP"/>
-          <include name="sortUsingBatchName"/>
-          <include name="lessThan10DigitMobileNumber"/>
-          <include name="futureBatchStartDate"/>
-          <include name="createNewBatch"/>
-          <include name="fifteenSecondTimer"/>
-          <include name="invalidBatchCode"/>
-          <include name="defaultBatchStartDate"/>
-          <include name="openBrowser"/>
-          <include name="Addfaculty"/>
-          <include name="searchBatchInHindiLanguage"/>
-          <include name="searchBatchWithWlphanumeric"/>
-          <include name="batchNameTextfield"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="otpScreenValidation"/>
         </methods>
-      </class> <!-- AutomationPractice.AutomationPractice -->
+      </class> <!-- AutomationPractice.loginUI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
